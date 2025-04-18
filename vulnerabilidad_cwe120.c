@@ -32,6 +32,7 @@ void safe_read() {
     }
 }
 
+
 int main() {
     printf("-- Ejecución de función vulnerable --\n");
     vulnerable_read();

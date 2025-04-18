@@ -29,7 +29,7 @@ int main() {
     int *puntero_nulo = NULL;
 
 
-    // Caso 2: puntero valido (funciona en ambas)
+    // Caso 1: puntero valido (funciona en ambas)
     printf("-- Ejecucion con puntero valido --\n");
     vulnerable_null_dereference(puntero_valido);
 
@@ -38,9 +38,9 @@ int main() {
     safe_null_dereference(puntero_valido);
 
     printf("\n===\n\n");
-    
 
-    // Caso 1: puntero nulo (provoca fallo en vulnerable)
+
+    // Caso 2: puntero nulo (provoca fallo en vulnerable)
     printf("-- Ejecucion con puntero NULL --\n");
     vulnerable_null_dereference(puntero_nulo);
 

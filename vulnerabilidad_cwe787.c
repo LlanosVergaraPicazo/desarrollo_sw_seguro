@@ -16,6 +16,7 @@ void vulnerable_copy(const char *input) {
     printf("Contenido del buffer: %s\n", buffer);
 }
 
+
 // Funcion segura
 void safe_copy(const char *input) {
     char buffer[10];
