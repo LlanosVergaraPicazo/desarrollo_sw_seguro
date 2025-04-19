@@ -1,0 +1,3 @@
+<img src=x onerror=alert('XSS')>	
+Mensaje 1
+Después de la alerta
